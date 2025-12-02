@@ -1,0 +1,35 @@
+body {
+    background: #0A0F12;
+    font-family: Arial, sans-serif;
+    color: white;
+    padding: 40px;
+}
+
+.container {
+    max-width: 650px;
+    margin: auto;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+input, button {
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+}
+
+button {
+    background: #25FFE6;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}
